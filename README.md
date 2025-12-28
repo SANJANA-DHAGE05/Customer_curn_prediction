@@ -46,7 +46,7 @@ Chosen for its strong performance and interpretability
 
 🌐 Live Application
 
-👉 [Add your Streamlit app link here]
+👉 https://customercurnprediction.streamlit.app/
 
 📁 Project Structure
 Customer_Churn_Prediction/

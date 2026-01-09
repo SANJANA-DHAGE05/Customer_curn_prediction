@@ -40,7 +40,7 @@ Cloud deployment
 
 Logistic Regression
 
-Achieved approximately 94% accuracy on test data
+Achieved approximately 87% accuracy on test data
 
 Chosen for its strong performance and interpretability
 

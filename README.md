@@ -1,78 +1,56 @@
-📌 Customer Churn Prediction – End-to-End ML Project
-🔍 Project Overview
+# Telecom Customer Churn Analysis & Prediction
 
-Customer churn is a critical business problem where organizations aim to identify customers who are likely to discontinue their services.
-This project predicts customer churn using machine learning and provides an interactive web interface for real-time predictions.
+## 📌 Business Problem
+Customer churn significantly impacts telecom revenue. The objective was to analyze customer behavior and predict high-risk churn customers.
 
-🎯 Objective
+---
 
-To build and deploy a machine learning model that predicts whether a customer will churn or stay, based on customer attributes.
+## 📊 Dataset
+- 6,000+ customer records
+- Demographics, services, payment methods, contract type
 
-🛠️ Tech Stack
+---
 
-Python
+## 🛠 Tools Used
+- SQL Server
+- Python (Pandas, Scikit-learn)
+- Power BI
+- Random Forest Classifier
 
-Pandas, NumPy
+---
 
-Scikit-learn
+## 🔎 Approach
 
-Streamlit
+1. Data Cleaning & Transformation (SQL + Python)
+2. Exploratory Data Analysis (EDA)
+3. Feature Engineering
+4. Model Building
+5. Dashboard Creation
 
-Google Colab
+---
 
-GitHub & Streamlit Cloud
+## 📈 Key Insights
+- Contract type strongly influences churn.
+- Higher monthly charges increase churn probability.
+- Long-term customers show lower churn rates.
 
-📊 Workflow
+---
 
-Data preprocessing and feature scaling
+## 🤖 Model Performance
+- Random Forest Accuracy: 84%
+- Confusion matrix available in project files.
 
-Model training and evaluation
+---
 
-Model comparison and selection
+## 📊 Dashboard Preview
 
-Saving trained model and scaler
+<img width="997" height="572" alt="Screenshot 2026-02-05 155129" src="https://github.com/user-attachments/assets/a4b8966a-44fc-4beb-90a2-0b8f545b18e9" />
+<img width="987" height="578" alt="Screenshot 2026-02-05 155114" src="https://github.com/user-attachments/assets/a5aac81c-425f-42df-a150-fe57e3836f00" />
+<img width="968" height="629" alt="Screenshot 2026-02-05 155422" src="https://github.com/user-attachments/assets/c2fb1c84-36a9-4d27-983a-12f63cc8afd6" />
+<img width="621" height="516" alt="Screenshot 2026-02-05 155450" src="https://github.com/user-attachments/assets/f2bd35ad-c8f5-401a-b984-9718eca66a52" />
 
-Building a Streamlit web application
 
-Cloud deployment
+---
 
-🤖 Model Used
-
-Logistic Regression
-
-Achieved approximately 87% accuracy on test data
-
-Chosen for its strong performance and interpretability
-
-🌐 Live Application
-
-👉 https://customercurnprediction.streamlit.app/
-
-📁 Project Structure
-Customer_Churn_Prediction/
-│
-├── app.py
-├── model.pkl
-├── scaler.pkl
-├── requirements.txt
-├── customer_churn_data.csv
-
-📌 Key Learnings
-
-End-to-end ML pipeline development
-
-Model evaluation and selection
-
-Deploying ML models as web applications
-
-Using Streamlit Cloud for production deployment
-
-🚀 Future Improvements
-
-Display churn probability (%)
-
-Add customer risk categories
-
-Improve UI/UX
-
-Feature importance visualization
+## 🚀 Business Impact
+Enabled identification of high-risk customers to improve retention strategy and targeted marketing efforts.
